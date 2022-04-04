@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@700&family=Montserrat:wght@500;700&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+  <title>404 page challenge</title>
+
+  <style>
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Space Mono', monospace;
+      color: #333333;
+      line-height: 1;
+ 
+      
+    }
+
+    .container {
+      margin: 40px 77px;
+    }
+
+    .container img {
+      max-width: 100%;
+      height: auto;
+      display: block;
+    }
+
+    h1 {
+      
+      font-family: 'Inconsolata', monospace;
+      font-size: 24px;
+      font-weight: 700;
+      letter-spacing: -1.28px;
+      line-height: 1.05;
+      text-transform: uppercase;
+      /* margin-top: 40px; */
+      /* margin-left: 77px; */
+      margin-bottom: 200px;
+    }
+
+    img {
+      width: 540px;
+      height: 415px;
+    }
+
+    .message-box {
+      
+      display: flex;
+      align-items: center;
+      gap: 119px;
+      
+    }
+
+    .title {
+      width: 586px;
+      font-size: 64px;
+      font-weight: 700;
+      line-height: 1.48;
+      letter-spacing: -0.56px;
+      margin-bottom: 36px;
+    }
+
+    .text {
+      font-size: 24px;
+      line-height: 1.5;
+      width: 381px;
+      letter-spacing:-0.56px;
+      margin-bottom: 64px;
+    }
+
+    .button {
+      font-size: 14px;
+      text-transform: uppercase;
+      font-weight: 700;
+      line-height: 1.5;
+      letter-spacing: -0.56px;
+      text-decoration: none;
+      padding: 24px 43px;
+      background-color: #333333;
+      color: #FFFFFF;
+
+    }
+
+    footer {
+      font-family:'Montserrat', sans-serif;
+      font-size: 14px;
+      font-weight: 500;
+      line-height: 1.2;
+      color:#BDBDBD;
+      margin-top: 308px;
+      margin-bottom: 24px;
+      text-align: center;
+    }
+
+    @media (max-width: 640px) {
+
+      .container {
+        margin: 20px 24px;
+      }
+
+      h1 {
+        margin-bottom: 64px;
+      }
+
+
+      .message-box {
+        display: flex;
+        flex-direction: column;
+        gap: 77px;
+      }
+
+
+      img {
+        width: 287px;
+        height: 221px;
+      }
+
+      .title {
+        font-size: 48px;
+        line-height: 1.5;
+        width: 350px;
+      }
+
+      .text {
+        font-size: 18px;
+        line-height: 1.5;
+        width: 328px;
+      }
+
+    }
+
+  </style>
+</head>
+
+<body>
+  <div class="container">
+    <h1>404 not found</h1>
+    <div class="message-box">
+      
+      <img src="Scarecrow.png" alt="picture of scarecrow">
+      <div>
+        <p class="title">I have bad news for you</p>
+        <p class="text">The page you are looking for might be removed or is temporarily unavailable</p>
+        <a href="#" class="button">Back to homepage</a>
+      </div>
+    </div>
+  </div>
+  
+  <footer>
+    created by Natalya Kim - devChallenges.io
+  </footer>
+</body>
+</html>
