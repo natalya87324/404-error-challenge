@@ -76,7 +76,8 @@
       margin-bottom: 64px;
     }
 
-    .button {
+    .button:link,
+    .button:visited {
       font-size: 14px;
       text-transform: uppercase;
       font-weight: 700;
@@ -86,8 +87,16 @@
       padding: 24px 43px;
       background-color: #333333;
       color: #FFFFFF;
+      display: inline-block;
 
     }
+    
+    .button:hover,
+    .button:visited {     
+      background-color: #FFFFFF;
+      color: #333333;
+      
+    } 
 
     footer {
       font-family:'Montserrat', sans-serif;
